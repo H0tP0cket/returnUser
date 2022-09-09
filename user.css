@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #262624;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+p {
+  color: white;
+}
+
+.halal {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  height: 35px;
+  border-width: 2px;
+  border-color: #3498db;
+  border-radius: 5px;
+
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  margin: 0;
+
+  top: 80%;
+  color: white;
+
+  background: linear-gradient(to left, transparent 50%, #3498db 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+  display: flex;
+  width: 8rem;
+  text-align: center;
+}
+.halal:hover {
+  background-position: left;
+}
+
+.containing {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
